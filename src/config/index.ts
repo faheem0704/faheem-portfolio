@@ -1,98 +1,133 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Muhammed Faheem Azeez — UI/UX Designer & Frontend Developer",
+  author: "Muhammed Faheem Azeez",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Portfolio of Muhammed Faheem Azeez — UI/UX designer and frontend developer who designs in Figma and builds in Next.js. Final-year AI & ML engineering student at SRMIST Chennai.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/faheem.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
+    { text: "Skills", href: "#skills" },
+    { text: "Education", href: "#education" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "GitHub", href: "https://github.com/faheem0704" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/muhammed-faheem-azeez-3a6467242/" },
+    // TODO: Replace with your Figma or Behance profile URL
+    { text: "Figma", href: "[FIGMA_OR_BEHANCE_URL_HERE]" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  // TODO: Update to your live domain once deployed
+  canonicalURL: "https://faheem-portfolio.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Muhammed Faheem",
+    specialty: "UI/UX Designer & Frontend Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "UI/UX Designer and AI & ML graduate who designs in Figma and ships the real product in Next.js — with an eye for motion, visual hierarchy, and the small details that make a product feel good to use.",
+    email: "muhammedf0704@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Azalea by Zehra",
+      position: "Freelance UI/UX Designer & Frontend Developer",
+      startDate: "2026",
+      endDate: "2026",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Sole designer and developer for a women's ethnic wear e-commerce brand. Took the project from initial brief to a live, shippable product — handling UX research, Figma wireframes, high-fidelity mockups, interactive prototype, and full frontend build in Next.js.",
+        "Built a fully responsive storefront with scroll-driven parallax sections, smooth page transitions, and custom hover-effect product cards. Maintained a consistent design system (typography, colour tokens, spacing) across all screen sizes.",
+        "Worked directly with the client through multiple feedback rounds, translating requests into design decisions while keeping the visual identity cohesive and the experience intuitive.",
       ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      name: "Azalea by Zehra — E-Commerce Website",
+      summary:
+        "Designed the complete interface in Figma — wireframes, mockups, and an interactive prototype — then built it as a full-stack store in Next.js for a clothing brand. Fully responsive across mobile, tablet, and desktop, with scroll-driven parallax sections, smooth page transitions, and custom hover-effect product cards.",
+      // TODO: Replace with a real screenshot of the Azalea by Zehra site
       image: "/shopify-clon.png",
+      linkPreview: "https://azaleabyzehra.com",
+      linkSource: "https://github.com/faheem0704/azaleabyzehra",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      name: "Responsive Web UI Design",
+      summary:
+        "Designed a multi-section responsive website end-to-end in Figma, from low-fidelity wireframes to a high-fidelity interactive prototype. Crafted parallax scroll effects, animated section reveals, and custom hover states, applying core UI/UX principles — visual hierarchy, consistency, and user-flow mapping.",
+      // TODO: Replace with a real screenshot or export from the Figma prototype
+      image: "/spotifu.png",
+      // TODO: Replace with your Figma prototype URL
+      linkPreview: "[FIGMA_PROTOTYPE_URL_HERE]",
+      linkSource: "[FIGMA_PROTOTYPE_URL_HERE]",
+    },
+    {
+      name: "AI-Driven Urban Safety Monitoring System",
+      summary:
+        "Designed and built a real-time React dashboard — live camera grid, alert toasts, incident export, and analytics — with a clear, usable layout for fast decision-making. Behind it, an end-to-end CCTV anomaly detection engine using YOLOv8 (rule-based scoring + Random Forest) cut false positives from 96% to 12% at 98% accuracy, served via a FastAPI + WebSocket backend.",
+      // TODO: Replace with a real screenshot of the dashboard UI
       image: "/clone-ig.png",
+      linkPreview: "https://urban-safety-ai.vercel.app",
+      linkSource: "https://github.com/faheem0704/urban-safety-ai",
+    },
+  ],
+  education: [
+    {
+      degree: "B.Tech in CSE — AI & ML Specialization",
+      institution: "SRM Institute of Science and Technology",
+      location: "Chennai, India",
+      year: "2026",
+      detail: "CGPA 7.2 / 10",
+    },
+    {
+      degree: "Class XII — Kerala Board of Secondary Education",
+      institution: "GOV HSS Koothuparamba",
+      location: "Kerala, India",
+      year: "2022",
+    },
+    {
+      degree: "Class X — Kerala Board of Secondary Education",
+      institution: "Rani Jai HSS, Nirmalagiri",
+      location: "Kerala, India",
+      year: "2020",
+    },
+  ],
+  skills: [
+    {
+      category: "Design & Prototyping",
+      icon: "✎",
+      skills: ["Figma", "Wireframing", "Prototyping", "User Flows", "Responsive Design", "Design Systems", "UI/UX Principles", "Micro-interactions", "Usability Testing"],
+    },
+    {
+      category: "Frontend",
+      icon: "{ }",
+      skills: ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "Tailwind CSS", "Framer Motion", "GSAP"],
+    },
+    {
+      category: "Programming",
+      icon: "⚙",
+      skills: ["Python", "C/C++", "Java"],
+    },
+    {
+      category: "AI & ML",
+      icon: "⚡",
+      skills: ["PyTorch", "TensorFlow", "Keras", "Scikit-learn", "YOLOv8", "OpenCV", "CNN", "NumPy", "Pandas"],
+    },
+    {
+      category: "Databases & Tools",
+      icon: "▦",
+      skills: ["SQL", "PostgreSQL", "MongoDB", "SQLite", "Git", "GitHub", "FastAPI"],
     },
   ],
   about: {
-    description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+    description: `UI/UX Designer and AI & Machine Learning graduate who designs in Figma and ships the real product in Next.js. Comfortable taking an interface from wireframes and user flows to high-fidelity, interactive prototypes, then building responsive, animation-rich frontends with parallax effects, smooth transitions, and custom hover-state components.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+Strong grasp of core UI/UX principles, design consistency across web and mobile, and developer handoff — combining a designer’s eye for clean, intuitive interfaces with an engineer’s ability to actually build them. Seeking a UI/UX Designer role where design thinking and frontend execution meet.`,
+    image: "/faheem.jpg",
   },
 };
-
-// #5755ff

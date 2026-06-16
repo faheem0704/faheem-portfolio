@@ -21,7 +21,7 @@ const { experience } = Astro.props;
             {position}
           </h4>
           <span class="pb-0.5 text-sm text-white/70">
-            {startDate} — {endDate}
+            {startDate === endDate ? startDate : `${startDate} — ${endDate}`}
           </span>
         </div>
         {Array.isArray(summary) ? (

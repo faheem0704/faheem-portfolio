@@ -13,6 +13,22 @@ export interface SiteContent {
   experience: ExperienceProps[];
   projects: ProjectProps[];
   about: AboutProps;
+  skills: SkillCategoryProps[];
+  education: EducationProps[];
+}
+
+export interface SkillCategoryProps {
+  category: string;
+  icon: string;
+  skills: string[];
+}
+
+export interface EducationProps {
+  degree: string;
+  institution: string;
+  location: string;
+  year: string;
+  detail?: string;
 }
 
 export interface HeroProps {
